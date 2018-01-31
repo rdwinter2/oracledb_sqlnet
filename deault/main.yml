@@ -1,0 +1,10 @@
+---
+
+tcp:
+  valid_nodechecking: YES
+  # Using private IPv4 address scapes as an example
+  invited_nodes: 10.0.*.*, 172.16.*.*, 192.168.*.*
+
+sqlnet:
+  inbound_connect_timeout: 200
+  send_timeout: 180
